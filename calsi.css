@@ -1,0 +1,57 @@
+#display{
+    width: 350px;
+    height: 40px;
+    text-align: right;
+    font-size: x-large;
+    
+}
+#div{
+    width: 450px;
+    height: 450px;
+    border: 2px solid;
+    position: relative;
+    top: 60px;
+    border-radius: 15px;
+    
+}
+.b{
+    width: 60px;
+    height: 50px;
+    text-align: center;
+    font-size:x-large;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+#eq{
+    position: absolute;
+    top: 67.5%;
+    bottom: 20%;
+    left: 67%;
+    width: 68px;
+    height: 130px;
+    font-size: x-large;
+    border-radius: 5px;
+    background-color: rgb(172, 168, 168);
+}
+#zero{
+    width:130px ;
+    position: absolute;
+    left: 82px;
+    text-align: center;
+}
+.b:hover{
+    background-color: rgba(250, 233, 78, 0.685);
+}
+.b:active{
+    background-color: rgba(253, 23, 195, 0.479);
+}
+#eq:hover{
+    background-color: rgba(250, 233, 78, 0.685);
+}
+#eq:active{
+    background-color: rgba(253, 23, 195, 0.493);
+}
+#display:hover{
+    background-color: lightgreen;
+}
